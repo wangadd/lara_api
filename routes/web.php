@@ -24,3 +24,6 @@ $router->get('/user/order','User\UserController@order');
 $router->get('/user/encryption','User\UserController@encryption');
 $router->post('/user/sign','User\SignController@sign');
 $router->post('/curl','User\Curl@curl');
+
+//考试
+$router->post('/kaoshi','User\UserController@userLogin');
